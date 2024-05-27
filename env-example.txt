@@ -1,0 +1,45 @@
+SECRET_OR_KEY=
+DEBUG= (True/False)
+MYSQL_DATABASE=aws
+ENV=    (prod/dev)
+REDIS=
+
+
+URL_MEDIA=
+URL_DEPLOY_FRONTEND=
+
+EMAIL_HOST_USER=
+EMAIL_HOST_PASSWORD=
+
+DB_DEVELOP_HOST=
+DB_DEVELOP_NAME=
+DB_DEVELOP_USER=
+DB_DEVELOP_PORT=
+DB_DEVELOP_PASSWORD=
+
+
+[UTILITIES]
+
+# python manage.py collectstatic
+
+
+[CRONTAB]
+
+# add job in your project
+# python manage.py crontab add
+
+# show current active jobs of this project:
+# python manage.py crontab show
+
+# removing all defined jobs is straight forward:
+# python manage.py crontab remove
+
+
+[REQUERIMENTS ERRORS IN WSL]
+
+# weasyprint==62.1
+# pyHanko==0.23.2
+# oracledb==2.0.1
+# cx_Oracle==8.3.0
+# twisted-iocpsupport==1.0.4
+# pyhanko-certvalidator==0.26.3
